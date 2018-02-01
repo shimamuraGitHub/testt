@@ -15,10 +15,11 @@ $("#hello").click(
 
 $("#helloB").click(
 	function(){
-		let json = {
-						'name':'ko',
-						'age':25
-					};
+		let json = 
+			{
+				'name':'ko',
+				'age':25
+			};
 
 		$.ajax({
 			type:"put",
