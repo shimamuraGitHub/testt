@@ -11,6 +11,7 @@ class JerseyConfig :ResourceConfig(){
 	// コンストラクタの代わりとしてinitを使用
     init {
 		// RESTの窓口クラスの格納されているパッケージを指定
-        packages("com.example.demo.test");
+//        packages("com.example.demo.test");
+        packages("com.example.demo");
     }
 }
